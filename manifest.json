@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Move YouTube Tab Automatically",
+  "description": "When opening a url with specific domains(e.g. youtube.com), move a tab to a specified window",
+  "version": "1.0",
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "permissions": ["tabs"]
+}
